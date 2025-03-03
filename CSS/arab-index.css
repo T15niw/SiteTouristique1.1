@@ -1,0 +1,76 @@
+html,
+body {
+  margin: 0;
+  margin-bottom: 0;
+  font-family: Noto Sans Arabic;
+  font-size: 1 em;
+  box-sizing: border-box;
+  height: 100%;
+}
+footer,
+header {
+  background-color: #9f512f;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+.armoirie {
+  padding-bottom: 20px;
+}
+.nav {
+  background-color: #f2ce89;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+li a:hover {
+  background-color: #d29c35;
+  color: #f5e0d5;
+  font-weight: 600;
+}
+li,
+ul {
+  display: inline;
+}
+.imgContainer {
+  position: relative;
+  width: 100%;
+}
+.imgWelcome {
+  height: auto;
+  width: 100%;
+  opacity: 0.65;
+}
+h1 {
+  font-family: Noto Kufi Arabic;
+  font-size: 120px;
+  position: absolute;
+  font-weight: 850;
+  color: #d29c35;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h3 {
+  font-size: 35px;
+}
+.vidContainer {
+  background-color: #f2ce89;
+  padding-bottom: 20px;
+  padding-top: 1px;
+}
+video {
+  border-radius: 25px;
+}
+.imgButton {
+  border-radius: 20%;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: #fdf7eb;
+}
+.button :hover {
+  transform: scale(1.1);
+}

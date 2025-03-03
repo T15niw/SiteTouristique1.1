@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+  margin-bottom: 0;
+  font-family: montserrat;
+  font-size: 1 em;
+  box-sizing: border-box;
+  height: 100%;
+  text-align: center;
+}
+footer,
+header {
+  background-color: #d13817;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+h1 {
+  font-family: passion one;
+  text-align: center;
+  font-size: 50px;
+}
+.nav {
+  background-color: #f8b04f;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+li a:hover {
+  background-color: #f69c23;
+  color: #f5e0d5;
+  font-weight: 600;
+}
+li,
+ul {
+  display: inline;
+}
+.topCa {
+  background-color: #da6045;
+  background: linear-gradient(to bottom, #da6045, rgba(255, 255, 255, 0));
+  width: 100%;
+  padding: 10px;
+}
+.places {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+.placesCarte {
+  width: 660px;
+  height: auto;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: white;
+}
+.placesCarte:hover {
+  transform: scale(1.02);
+  background-color: #da6045;
+  box-shadow: 4px 4px 9px #bc3215;
+  color: white;
+}
+.placesCarte:hover a { 
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.places img {
+  border-radius: 5px;
+}
+.places img:hover {
+  transform: scale(1.02);
+}
+.vidContainer {
+  background-color: #f8b04f;
+  padding-bottom: 20px;
+  padding-top: 1px;
+}
+video {
+  border-radius: 25px;
+}
+.imgButton {
+  border-radius: 20%;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: #fdf7eb;
+}
+.button :hover {
+  transform: scale(1.1);
+}

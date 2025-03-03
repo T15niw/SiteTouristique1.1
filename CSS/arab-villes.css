@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  margin-bottom: 0;
+  font-family: Noto Sans Arabic;
+  font-size: 1 em;
+  box-sizing: border-box;
+  height: 100%;
+}
+footer,
+header {
+  background-color: #9f512f;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.nav {
+  text-align: center;
+  background-color: #f2ce89;
+}
+h1 {
+  font-family: Noto Kufi Arabic;
+  font-size: 40px;
+  padding: 5px;
+}
+.villes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: scale(0.89);
+}
+.border {
+  width: 280px;
+  height: 450px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  text-align: center;
+  background-color: white;
+margin-right: 20px;
+}
+.border:hover {
+  transform: scale(1.03);
+  background-color: #d29c35;
+  box-shadow: 4px 4px 9px #9a7122;
+  color: #f2ce89;
+}
+.border:hover a {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
